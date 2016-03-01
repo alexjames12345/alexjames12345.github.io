@@ -29,7 +29,6 @@ Released   : 20131223
 		<div id="logo">
 			<h1><span class="icon icon-cog"></span><a href="#">Fantasy Advice</a></h1>
 			<div id="menu">
-				<ul>
 				<div class="dropdown">
   <button class="dropbtn">FANTASY</button>
   <div class="dropdown-content">
@@ -38,6 +37,7 @@ Released   : 20131223
     <a href="#">Link 3</a>
   </div>
 </div>
+					<ul>
 					<li class="current_page_item"><a href="#" accesskey="1" title="">MLB</a></li>
 					<li><a href="#" accesskey="2" title="">NBA</a></li>
 					<li><a href="#" accesskey="3" title="">NFL</a></li>
@@ -64,7 +64,7 @@ Released   : 20131223
 				<h2>NHL</h2>
 			</div>
 			<p>See Hockey Scores here. Click the Button Below</p>
-			<a href="#"> <img src="http://www.sports-logos-screensavers.com/user/NHL_Logo_New2.jpg" width="300" height="200" alt="" class="button"> </a> </img> </div>
+			<a href="#"> <img src="http://www.sports-logos-screensavers.com/user/NHL_Logo_New2.jpg" alt="" width="300" height="200" class="button">  </a>  </div>
 		<div id="tbox2">
 			<div class="title">
 				<h2>MLB</h2>
@@ -109,8 +109,8 @@ Released   : 20131223
 
 
 
-	<div id="baseball-fantasy-advice" 
-	<p> Remember, be on the lookout for prospects you have never heard of in Spring Training. Thing about the underrated players. Best players at every position:
+	<div id="baseball-fantasy-advice">
+	<p> Remember, be on the lookout for prospects you have never heard of in Spring Training. Think about the underrated players. Best players at every position:
 	C: Buster Posey
 	1B: Paul Goldschmidt
 	2B: Dee Gordon
@@ -122,6 +122,7 @@ Released   : 20131223
 	SP: Clayton Kershaw
 	RP: Andrew Miller
 	CL: Aroldis Chapman
+	</p>
 		</div>
 		</div>
 </div>
@@ -141,6 +142,13 @@ Released   : 20131223
 			<li><a href="#" class="icon icon-lock"></a></li>
 		</ul>
 	
+	<form action="mail.php" method="POST">
+<p>Name</p> <input type="text" name="name">
+<p>Email</p> <input type="text" name="email">
+<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<input type="submit" value="Send"><input type="reset" value="Clear">
+</form>
+
 	</div>
 </div>
 </body>
